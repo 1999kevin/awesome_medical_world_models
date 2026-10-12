@@ -31,6 +31,11 @@ This list is actively maintained. If you find this repository useful, please con
 }
 ```
 
+## Updates
+
+- **2026.06.16:** Uploaded the initial version of the paper collection.
+- **2026.10.12:** Added 11 research papers from 2026.07–2026.10.
+
 ## Contents
 
 The badges below indicate the modality, method type and available links used throughout the list.
@@ -50,6 +55,24 @@ The badges below indicate the modality, method type and available links used thr
 ---
 
 ## Medical State Representation
+
+- **[HounsWorld: A Multimodal World Model for Hidden Patient-State Readout, Reconstruction, and Simulation](https://arxiv.org/abs/2608.12904)**  
+  ![CT](https://img.shields.io/badge/Modality-CT-1f77b4) ![Multimodal](https://img.shields.io/badge/Modality-Multimodal-9cf) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2608.12904)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Yunhao Bai; Zhongwei Qiu; Guangyu Guo; Yiming Huang; Tony C. W. Mok; Qinji Yu; Ling Zhang; Yan Wang  
+  **Summary:** Unifies CT and clinical language through a shared latent patient-state formulation, supporting query answering, language reconstruction and condition-specific CT generation with joint understanding-generation learning.
+
+- **[Multimodal EEG World Model: Self-Supervised Latent Transition Learning for Wearable EEG Seizure Detection](https://doi.org/10.64898/2026.07.20.26358450)**  
+  ![Physio](https://img.shields.io/badge/Modality-Physio-yellow) ![Multimodal](https://img.shields.io/badge/Modality-Multimodal-9cf) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.64898/2026.07.20.26358450)  
+  **Venue/Time:** medRxiv, 2026  
+  **Authors:** Ziyuan Yin; Hongyi Zhu  
+  **Summary:** Predicts next-segment EEG latent representations conditioned on synchronized ECG, EMG and movement signals, learning transferable physiological dynamics representations for wearable seizure detection.
+
+- **[Did the Grid Erase the Event? EndoClock for Auditing Medical World-Model Pipelines](https://arxiv.org/abs/2608.09266)**  
+  ![Ultrasound](https://img.shields.io/badge/Modality-Ultrasound-00a6a6) ![Multimodal](https://img.shields.io/badge/Modality-Multimodal-9cf) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2608.09266)  
+  **Venue/Time:** MICCAI Workshop on Medical World Models (MWM), 2026  
+  **Authors:** Yarin Udi; Tom Sharon-Shahak; Roee Masad; Dan Pri-Tal  
+  **Summary:** Audits whether fixed-grid synchronization of multimodal medical recordings erases task-relevant observation timing or acquisition events, using a four-regime evidence taxonomy and an echocardiography example.
 
 - **[X-WIN: Building Chest Radiograph World Model via Predictive Sensing](https://arxiv.org/abs/2511.14918)**  
   ![X-ray](https://img.shields.io/badge/Modality-X--ray-blue) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2511.14918)  
@@ -181,6 +204,24 @@ The badges below indicate the modality, method type and available links used thr
 
 ## Disease Progression and Trajectory Prediction
 
+- **[Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology](https://arxiv.org/abs/2608.13518)**  
+  ![MRI](https://img.shields.io/badge/Modality-MRI-4c78a8) ![EHR](https://img.shields.io/badge/Modality-EHR-green) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2608.13518)  
+  **Venue/Time:** MICCAI Workshop on Medical World Models (MWM), 2026  
+  **Authors:** Yunsung Chung; Yingshuo Liu; Abboud F. Hassan; Han Feng; Mary M. Maleckar; Nassir Marrouche; Jihun Hamm  
+  **Summary:** Initializes a spatial patient state from baseline MRI and updates it with procedural context, elapsed time and irregular postoperative events to forecast atrial fibrillation recurrence and scar extent.
+
+- **[ProgFormer: Hierarchical Voxel Diffusion Transformer for Longitudinal Brain MRI Prediction](https://arxiv.org/abs/2607.27537)**  
+  ![MRI](https://img.shields.io/badge/Modality-MRI-4c78a8) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2607.27537)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Dexuan Ding; Yuankai Qi; Luping Zhou; Jian Yang; Quan Z. Sheng; Ming-Hsuan Yang  
+  **Summary:** Predicts future brain MRI directly in voxel space with coarse-to-fine diffusion transformers and conditional flow matching, preserving global anatomy while modelling subtle progression-related changes.
+
+- **[Patient, Place, Prior (P³): What Counts as Personalization in Medical World Models?](https://arxiv.org/abs/2610.09194)**  
+  ![MRI](https://img.shields.io/badge/Modality-MRI-4c78a8) ![JEPA](https://img.shields.io/badge/JEPA-purple) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2610.09194)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Xingrui Gu; Hanxue Gu; Yuxiang Zhang; Yang Yang  
+  **Summary:** Introduces a three-axis audit of patient-history use, spatial support and predictive value beyond population priors, illustrated with Cancer JEPA for forecasting future breast MRI representations.
+
 - **[CRONOS: Continuous Time Reconstruction for 4D Medical Longitudinal Series](https://arxiv.org/abs/2512.16577)**  
   ![CT](https://img.shields.io/badge/Modality-CT-1f77b4) ![MRI](https://img.shields.io/badge/Modality-MRI-4c78a8) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2512.16577)  
   **Venue/Time:** arXiv, 2025  
@@ -287,6 +328,18 @@ The badges below indicate the modality, method type and available links used thr
 
 ## Decision Support and Intervention Planning
 
+- **[UltraWorld: Learning Interactive Ultrasound World Models from Untracked Clinical Videos with Acoustic Sampling Map](https://arxiv.org/abs/2610.09785)**  
+  ![Ultrasound](https://img.shields.io/badge/Modality-Ultrasound-00a6a6) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2610.09785)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Keke Yang; Erqi Wang; Sainan Guan; Hongliang Ren  
+  **Summary:** Learns action-conditioned ultrasound dynamics from untracked clinical videos through synthetic action-video pairs and self-distillation, using an acoustic sampling map to support future-observation prediction and simulated closed-loop probe planning.
+
+- **[Ultrasound Operator Guidance Using World Modeling and Retrieval Based Action Planning](https://arxiv.org/abs/2610.06008)**  
+  ![Ultrasound](https://img.shields.io/badge/Modality-Ultrasound-00a6a6) ![World Model](https://img.shields.io/badge/World%20Model-red) ![JEPA](https://img.shields.io/badge/JEPA-purple) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2610.06008)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Noortje I. P. Schueler; Hans van Gorp; Ruud J. G. van Sloun  
+  **Summary:** Combines V-JEPA representations with a retrieval-induced latent transition model and receding-horizon planning to guide ultrasound probe movement from live images without probe tracking at deployment.
+
 - **[DeepPrognosis: Preoperative prediction of pancreatic cancer survival and surgical margin via comprehensive understanding of dynamic contrast-enhanced CT imaging and tumor-vascular contact parsing](https://linkinghub.elsevier.com/retrieve/pii/S1361841521001961)**  
   ![CT](https://img.shields.io/badge/Modality-CT-1f77b4) [![Paper](https://img.shields.io/badge/Paper-blue)](https://linkinghub.elsevier.com/retrieve/pii/S1361841521001961)  
   **Venue/Time:** Medical Image Analysis, 2021  
@@ -380,6 +433,24 @@ The badges below indicate the modality, method type and available links used thr
 ---
 
 ## Integrated Medical World Models
+
+- **[A world model simulates the latent dynamics of human health](https://doi.org/10.64898/2026.09.19.26363460)**  
+  ![Multimodal](https://img.shields.io/badge/Modality-Multimodal-9cf) ![EHR](https://img.shields.io/badge/Modality-EHR-green) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.64898/2026.09.19.26363460)  
+  **Venue/Time:** medRxiv, 2026  
+  **Authors:** Zirui Wang; Odin Zhang; Jiaqi Wang; Yijia Jiang; Zijian Carl Ma; Minghao Guo; Saleem Al Dajani; Alec Eames; Alibek Moldakozhayev; Jesse R. Poganik; et al.  
+  **Summary:** Introduces HealthFlux, a multimodal patient-state model combining continuous-time latent evolution with recurrent updates from new observations to recursively simulate long-term disease and mortality trajectories.
+
+- **[NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting](https://arxiv.org/abs/2609.09140)**  
+  ![Multimodal](https://img.shields.io/badge/Modality-Multimodal-9cf) ![EHR](https://img.shields.io/badge/Modality-EHR-green) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2609.09140)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Tobias Susetzky; Raphael Rehms; Dmitrii Seletkov; Özgün Turgut; Michelle Espranita Liman; Lisa Steinhelfer; Rickmer Braren; Daniel Rueckert  
+  **Summary:** Uses a time-aware generative transformer and variational latent states to represent multimodal patient histories and forecast future trajectories, including exploratory intervention-conditioned simulations.
+
+- **[NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199)**  
+  ![Surgical Video](https://img.shields.io/badge/Modality-Surgical%20Video-orange) ![Robotics](https://img.shields.io/badge/Modality-Robotics-blueviolet) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2608.24199)  
+  **Venue/Time:** arXiv, 2026  
+  **Authors:** Javier Gamazo Tejero; Lukas Zbinden; Keyur Sheth; Raghavendra K M; Nadim Daher; Diego Granero Maraña; Filip Binkiewicz; Patrick Thornycroft; Mahdi Azizian; Sean D. Huver  
+  **Summary:** Distills an action-conditioned surgical video model into a streaming simulator that generates surgical scenes in response to robot kinematics, enabling real-time interaction with human operators and learned policies.
 
 - **[Medical World Model](http://arxiv.org/abs/2506.02327)**  
   ![CT](https://img.shields.io/badge/Modality-CT-1f77b4) ![MRI](https://img.shields.io/badge/Modality-MRI-4c78a8) ![World Model](https://img.shields.io/badge/World%20Model-red) [![Paper](https://img.shields.io/badge/Paper-blue)](http://arxiv.org/abs/2506.02327) [![Code](https://img.shields.io/badge/Code-black)](https://github.com/scott-yjyang/MeWM)  
